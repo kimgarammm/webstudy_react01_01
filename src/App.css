@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
-}
+@charset "UTF-8";
+/* fonts */
+@import "./assets/css/fonts.css";
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* reset */
+@import "./assets/css/reset.css";
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* common */
+@import "./assets/css/common.css";
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* header */
+@import "./assets/css/header.css";
 
-.App-link {
-  color: #61dafb;
-}
+/* footer */
+@import "./assets/css/footer.css";
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* slider */
+@import "./assets/css/slider.css";
+
+/* image */
+@import "./assets/css/image.css";
+
+/* imgText */
+@import "./assets/css/imgText.css";
+
+/* card */
+@import "./assets/css/card.css";
+
+/* banner */
+@import "./assets/css/banner.css";
+
+/* text */
+@import "./assets/css/text.css";
